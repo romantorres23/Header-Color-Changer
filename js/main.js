@@ -35,3 +35,17 @@
 //         $('header').text('Blue')
 //     }
 // });
+
+$(document).on('keydown', function (e) {  
+    switch (e.keyCode) {
+        case 65:
+            color = "Red";
+            break;
+        case 83:
+            color = "Green";
+            break;
+        case 68:
+            color = "Blue";
+        }
+        $('header').text(color)
+});
