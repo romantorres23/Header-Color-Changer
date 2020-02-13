@@ -1,0 +1,28 @@
+body {
+    width: 800px;
+}
+
+header {
+    border: black 2px solid;
+    width: 300px;
+    text-align: center;
+}
+
+
+#redbutton, #greenbutton, #bluebutton {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+#redbutton {
+    background-color: red;
+}
+
+#greenbutton {
+    background-color: green;
+}
+
+#bluebutton {
+    background-color: blue;
+}
