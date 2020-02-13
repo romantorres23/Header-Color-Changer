@@ -27,3 +27,15 @@ header {
 #bluebutton {
     background-color: blue;
 }
+
+.redbg {
+    background: red;
+}
+
+.greenbg {
+    background-color: green;
+}
+
+.bluebg {
+    background-color: blue;
+}

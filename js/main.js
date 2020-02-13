@@ -36,7 +36,7 @@
 //     }
 // });
 
-$(document).on('keydown', function (e) {  
+/*$(document).on('keydown', function (e) {  
     switch (e.keyCode) {
         case 65:
             color = "Red";
@@ -48,4 +48,39 @@ $(document).on('keydown', function (e) {
             color = "Blue";
         }
         $('header').text(color)
+});*/
+
+//Toggle Background color
+/*$(document).on('keydown', function (e) {  
+    switch (e.keyCode) {
+        case 65:
+            color = "Red";
+            break;
+        case 83:
+            color = "Green";
+            break;
+        case 68:
+            color = "Blue";
+        }
+        $('header').css('background', color)
+});*/
+
+//Toggle background color with JQuery
+$(document).on('keydown', function (e) {  
+    switch (e.keyCode) {
+        case 65:
+            color = "redbg";
+            break;
+        case 83:
+            color = "greenbg";
+            break;
+        case 68:
+            color = "bluebg";
+        }
+        
+        if (typeof color !== 'undefined'){
+            $('header')
+                .attr('class', '')
+                .addClass(color);
+        }
 });
