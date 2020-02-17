@@ -1,2 +1,2 @@
-# JSPractice1
-Jaimes Test Task 2
+# JQueryPractice1
+Jaimes Test Task 1
